@@ -17,14 +17,14 @@ We provide three datasets: Wiki[^1], FB15K-237[^1] and UMLS.
 
 ## Training (UMLS)
 ```bash
-python main.py  --seed 1  --dataset umls-One  --data_path ./umls    --few 3  --step train  --mu 0.3  --alpha 0.1 --neuron 50    --eval_by_rel False   --prefix umlsone_3shot_pretrain  --device 0
+python main.py --seed 1 --step train --metatrain_adaptor False --eval_by_rel False --prefix umlsone_1shot_pretrain --alpha 0.1 --mu 0.3 --neuron 50 --device 0
 ```
 
 ## Test (UMLS)
 ```bash
-python main.py  --seed 1  --dataset umls-One  --data_path ./umls    --few 3  --step test  --mu 0.3  --alpha 0.1 --neuron 50    --eval_by_rel True --prefix umlsone_3shot_pretrain  --device 0
+python main.py --seed 1 --step test --metatrain_adaptor False --eval_by_rel True --prefix umlsone_1shot_pretrain --alpha 0.1 --mu 0.3 --neuron 50 --device 0
 ```
-**Wiki and FB15K-237 follow the same code format for training and test**
+**FB15K-237 and UMLS follow the same code format for training and test**
 
 Here are explanations of some important args,
 
