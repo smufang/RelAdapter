@@ -45,5 +45,14 @@ Here are explanations of some important args,
 ```
 [^1]: Due to size constraint, Wiki and FB15K-237 have been excluded.
 
+## Cite
 
-
+```
+@inproceedings{liu2024contextawareadaptertuningfewshot,
+      title={Context-Aware Adapter Tuning for Few-Shot Relation Learning in Knowledge Graphs}, 
+      author={Ran Liu and Zhongzhou Liu and Xiaoli Li and Yuan Fang},
+      year={2024},
+      booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+      url={https://arxiv.org/abs/2410.09123}, 
+}
+```
