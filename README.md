@@ -3,8 +3,7 @@ This repo shows the source code of EMNLP 2024 paper: [Context-Aware Adapter Tuni
 
 ![RelAdapter](framework.jpg)
 
-***
-# Running the Experiments
+
 ## Evironment Setting
 This code is lastly tested with:
 * Python 3.6.7
