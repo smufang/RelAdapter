@@ -1,7 +1,4 @@
-[Paper Title]([https://link-to-paper.com](https://arxiv.org/abs/2410.09123
-)![image](https://github.com/user-attachments/assets/fd4dba6a-a807-429f-aa7f-7a664f33e6e5)
-)
-
+This repo shows the source code of EMNLP 2024 paper: [Context-Aware Adapter Tuning for Few-Shot Relation Learning in Knowledge Graphs (RelAdapter)](https://your-link.com](https://arxiv.org/pdf/2410.09123) framework for few-shot relation learning (FSRL).
 
 # Pytorch RelAdapter (Few-shot Link Prediction)
 
@@ -45,3 +42,6 @@ Here are explanations of some important args,
 --device:    "the GPU number"
 ```
 [^1]: Due to size constraint, Wiki and FB15K-237 have been excluded.
+
+
+
