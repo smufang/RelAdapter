@@ -1,6 +1,6 @@
 This repo shows the source code of EMNLP 2024 paper: [Context-Aware Adapter Tuning for Few-Shot Relation Learning in Knowledge Graphs (RelAdapter)](https://arxiv.org/pdf/2410.09123) framework for few-shot relation learning (FSRL).
 
-![Description of Image](images/framework.jpg)
+![RelAdapter](framework.jpg)
 
 
 # Pytorch RelAdapter (Few-shot Link Prediction)
