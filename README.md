@@ -45,7 +45,7 @@ Here are explanations of some important args,
 ```
 [^1]: Due to size constraint, Wiki and FB15K-237 have been excluded.
 
-## Cite
+## Cite (To be updated after EMNLP 2024)
 
 ```
 @inproceedings{liu2024contextawareadaptertuningfewshot,
