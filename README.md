@@ -44,7 +44,7 @@ Here are explanations of some important args,
 --device:    "the GPU number"
 ```
 
-## Cite (To be updated after EMNLP 2024)
+## Cite
 
 ```
 @inproceedings{ran-etal-2024-context,
