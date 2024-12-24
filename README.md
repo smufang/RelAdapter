@@ -16,7 +16,7 @@ pip install -r requirements.txt
 ```
 
 ## Dataset
-We provide three datasets: Wiki[^1], FB15K-237[^1] and UMLS.
+We provide three datasets: UMLS, (Wiki, FB15K-237)[Visit link](https://www.dropbox.com/scl/fo/0a6776fmf6j2ga8g97i83/AAkqh13l6H4p32clNiKAUh4?rlkey=1aulevhldhp3upf1msk4sp16m&st=ewcjma77&dl=0)
 
 
 ## Training (UMLS)
@@ -43,16 +43,28 @@ Here are explanations of some important args,
 --prefix:    "given name of current experiment"
 --device:    "the GPU number"
 ```
-[^1]: Due to size constraint, Wiki and FB15K-237 have been excluded.
 
 ## Cite (To be updated after EMNLP 2024)
 
 ```
-@inproceedings{liu2024contextawareadaptertuningfewshot,
-      title={Context-Aware Adapter Tuning for Few-Shot Relation Learning in Knowledge Graphs}, 
-      author={Ran Liu and Zhongzhou Liu and Xiaoli Li and Yuan Fang},
-      year={2024},
-      booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
-      url={https://arxiv.org/abs/2410.09123}, 
+@inproceedings{ran-etal-2024-context,
+    title = "Context-Aware Adapter Tuning for Few-Shot Relation Learning in Knowledge Graphs",
+    author = "Ran, Liu  and
+      Liu, Zhongzhou  and
+      Li, Xiaoli  and
+      Fang, Yuan",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.970",
+    doi = "10.18653/v1/2024.emnlp-main.970",
+    pages = "17525--17537",
+    abstract = "Knowledge graphs (KGs) are instrumental in various real-world applications, yet they often suffer from incompleteness due to missing relations. To predict instances for novel relations with limited training examples, few-shot relation learning approaches have emerged, utilizing techniques such as meta-learning. However, the assumption is that novel relations in meta-testing and base relations in meta-training are independently and identically distributed, which may not hold in practice. To address the limitation, we propose RelAdapter, a context-aware adapter for few-shot relation learning in KGs designed to enhance the adaptation process in meta-learning. First, RelAdapter is equipped with a lightweight adapter module that facilitates relation-specific, tunable adaptation of meta-knowledge in a parameter-efficient manner. Second, RelAdapter is enriched with contextual information about the target relation, enabling enhanced adaptation to each distinct relation. Extensive experiments on three benchmark KGs validate the superiority of RelAdapter over state-of-the-art methods.",
 }
+
 ```
